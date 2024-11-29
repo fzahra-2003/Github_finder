@@ -1,14 +1,13 @@
-import React from 'react'
-import UserResults from '../Components/users/UserResults'
+import UserResults from '../components/users/UserResults'
+import UserSearch from '../components/users/UserSearch'
 
 function Home() {
-    return (
-        <>
-            {/* {process.env.REACT_APP_GITHUB_TOKEN} */}
-            {/* Search Components */}
-            <UserResults/>
-        </>
-    )
+  return (
+    <>
+      <UserSearch />
+      <UserResults />
+    </>
+  )
 }
 
 export default Home
